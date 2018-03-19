@@ -1,0 +1,13 @@
+a {
+    color: red;
+    text-decoration: none;
+    opacity: 1;
+    transition: all 5s;
+}
+
+a:hover {
+    color: blue;
+    opacity: 0.5;
+    text-decoration: underline;
+    transition: all 5s;
+}

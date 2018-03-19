@@ -1,0 +1,66 @@
+/*
+Syntaxe CSS
+
+<sélecteur css> {
+    <propriété css>: <valeur de la propriété css>;
+    [...]
+    // propriété + valeur = règle css
+    // par exemple
+    color: pink;
+}
+
+<media query> {
+    <sélecteur css> {
+        <propriété css>: <valeur de la propriété css>;
+        [...]
+    }
+}
+*/
+
+/* sélection par balise */
+h1 {
+    color: lightblue;
+}
+
+/* sélection par ID */
+#main-title {
+    color: lightblue;
+}
+
+/* sélection par balise et par ID */
+h1#main-title {
+    color: lightblue;
+}
+
+/* sélection par classe */
+.main-p {
+    color: pink;
+}
+
+/* sélection par balise et par classe */
+p.main-p {
+    color: pink;
+}
+
+/* sélection par balises combinées (p enfant de aside) */
+aside p {
+    color: orange;
+}
+
+/* sélection multiple par balises combinées (h2 enfant de article ou aside) */
+article h2, aside h2 {
+    font-style: italic;
+}
+
+/* sélection par balise */
+a {
+    color: blue;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* sélection multiple par balise et par pseudo classe */
+a:focus, a:hover, a:visited {
+    text-decoration: underline;
+}

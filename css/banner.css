@@ -1,0 +1,16 @@
+.banner {
+    background-size: cover;
+    background-image: url("../img/0a_b9g-rm6w-austin-neill.jpg");
+    background-position: center 33%;
+    height: 400px;
+    position: relative;
+}
+
+.banner-content {
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}

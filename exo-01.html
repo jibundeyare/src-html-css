@@ -1,0 +1,71 @@
+<!--
+Votre mission : créer un site one-page vitrine pour la boulangerie du coin.
+
+La page contient :
+- le nom de la boulangerie
+- coordonnées : adresse, tel, email
+- formulaire de commande :
+    - nombre de viennoiseries
+    - nombre de baguettes
+    - nom
+    - tél (pour confirmation)
+
+Balises à utiliser :
+- form
+- input (type text, type number, type radio)
+- select
+
+https://unsplash.com/
+https://iconmonstr.com/
+http://schema.org/
+
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>La boulangerie du coin</title>
+    </head>
+    <body>
+
+        <h1>La boulangerie du coin</h1>
+
+        <address>
+            123, rue de la boulangerie<br />
+            12345 Ville
+        </address>
+
+        <div>
+            <a class="tel" href="tel:03 12 34 56 78">03 12 34 56 78</a>
+        </div>
+
+        <div>
+            <a  class="email" href="mailto:contact@maboulangerie.com">contact@maboulangerie.com</a>
+        </div>
+
+        <form method="post">
+
+            <div>
+                <label>baguettes * : <input type="number" name="" value="" placeholder="nombre de baguettes" required></label>
+            </div>
+
+            <div>
+                <label>viennoiseries * : <input type="number" name="" value="" placeholder="nombre de baguettes" required></label>
+            </div>
+
+            <div>
+                <label>nom * : <input type="text" name="" value="" placeholder="votre nom" required></label>
+            </div>
+
+            <div>
+                <label>tél : <input type="tel" name="" value="" placeholder="votre téléphone"></label>
+            </div>
+
+            <div>
+                <button type="submit" name="button">Commander</button>
+            </div>
+
+        </form>
+
+    </body>
+</html>

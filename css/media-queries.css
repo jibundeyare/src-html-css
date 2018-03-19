@@ -1,0 +1,44 @@
+h1 {
+    color: pink;
+}
+
+.illustration {
+    display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .illustration {
+        display: block;
+    }
+
+    .illustration img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .illustration {
+        display: block;
+    }
+
+    .illustration img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px)  {
+    .illustration {
+        display: block;
+    }
+
+    .illustration img {
+        max-width: 100%;
+    }
+}
+
+p {
+    font-style: italic;
+}
+
+/* media query pour les tablettes */
+/* media query pour les desktops */

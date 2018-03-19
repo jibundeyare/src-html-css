@@ -1,0 +1,14 @@
+.basic {
+    color: rgba(239, 148, 148, 1);
+    background-color: #f9e998ff;
+    font-family: Helvetica Arial sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.basic-bis {
+    line-height: 2em;
+    letter-spacing: 2em;
+}
