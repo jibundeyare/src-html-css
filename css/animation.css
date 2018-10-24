@@ -1,0 +1,57 @@
+/* animation non cyclique, qui garde son état final */
+@keyframes rect-anim1 {
+    from {
+        background-color: pink;
+        height: 200px;
+        left: 0px;
+        top: 0px;
+        width: 300px;
+    }
+
+    to {
+        background-color: lightblue;
+        height: 300px;
+        left: calc(100% - 200px);
+        top: calc(100% - 300px);
+        width: 200px;
+    }
+}
+
+#rect1 {
+    animation: rect-anim1 5s 1 forwards;
+    position: absolute;
+}
+
+@keyframes rect-anim2 {
+    0%, 100% {
+        /* au milieu à gauche */
+        left: 0%;
+        top: calc(50% - 50px);
+    }
+
+    25% {
+        /* au milieu en haut */
+        left: calc(50% - 50px);
+        top: 0%;
+    }
+
+    50% {
+        /* au milieu à droite */
+        left: calc(100% - 100px);
+        top: calc(50% - 50px);
+    }
+
+    75% {
+        /* au milieu en bas */
+        left: calc(50% - 50px);
+        top: calc(100% - 100px);
+    }
+}
+
+#rect2 {
+    animation: rect-anim2 5s infinite backwards;
+    position: absolute;
+    background-color: lightgreen;
+    height: 100px;
+    width: 100px;
+}

@@ -1,0 +1,19 @@
+:root {
+  --heading-color: hotpink;
+  --default-margin: 1rem;
+}
+
+h1 {
+  color: var(--heading-color, black);
+  margin-bottom: calc(var(--default-margin) * 5)
+}
+
+h2 {
+  color: var(--heading-color, black);
+  margin-bottom: calc(var(--default-margin) + 100px)
+}
+
+h3 {
+  color: var(--heading-color, black);
+}
+

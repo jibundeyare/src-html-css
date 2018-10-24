@@ -5,9 +5,17 @@ a {
     transition: all 5s;
 }
 
-a:hover {
+a:focus, a:hover {
     color: blue;
     opacity: 0.5;
     text-decoration: underline;
     transition: all 5s;
 }
+
+a:visited {
+    color: green;
+    opacity: 0.5;
+    text-decoration: underline;
+    transition: all 5s;
+}
+

@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+.catalog {
+  align-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  min-height: 100vh;
+}
+
+.catalog img {
+  margin-bottom: 10px;
+  width: 300px;
+}
+

@@ -1,0 +1,66 @@
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+span {
+    color: lightblue;
+    transition: color 3s;
+}
+
+span:hover {
+    color: red;
+    transition: color 1s;
+}
+
+.red-transition {
+    color: red;
+    transition: color 5s;
+}
+
+.black-transition {
+    color: black;
+    transition: color 3s;
+}
+
+.frame {
+    height: 333px;
+    overflow: hidden;
+    width: 500px;
+}
+
+.photo {
+    transform: scale(1.0);
+    transition: all 3s;
+    width: 500px;
+}
+
+.photo:hover {
+    transform: scale(1.25);
+    transition: all 3s;
+}
+
+.hidden-left {
+    transform: translate(-100vw, 0px);
+    transition: all 3s;
+}
+
+.hidden-right {
+    transform: translate(100vw, 0px);
+    transition: all 3s;
+}
+
+.display {
+    transform: translate(0vw, 0px);
+    transition: all 3s;
+}
+
+.rotate {
+    transform: rotate(0turn);
+    transition: transform 1s;
+}
+
+.rotate:hover {
+    transform: rotate(3turn);
+    transition: transform 1s;
+}
