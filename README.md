@@ -18,3 +18,19 @@ licence: [License Agreement - iconmonstr](https://iconmonstr.com/license/)
 
 source: [Magnifier 4 - SVG - iconmonstr](https://iconmonstr.com/magnifier-4-svg/)
 
+### webfont Charmonman
+
+author: [Cadson Demak](http://font.cadsondemak.com/foundry/)
+
+licence: [Open Font License](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web)
+
+source: [Charmonman - Google Fonts](https://fonts.google.com/specimen/Charmonman?selection.family=Charmonman:400,700)
+
+### webfont 3DUMB
+
+author: [Tension Type](https://www.fontsquirrel.com/fonts/list/foundry/tension-type)
+
+licence: [https://www.fontsquirrel.com/license/3dumb](https://www.fontsquirrel.com/license/3dumb)
+
+source: [3Dumb Font Free by Tension Type » Font Squirrel](https://www.fontsquirrel.com/fonts/3dumb)
+

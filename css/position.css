@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+#img1 {
+  left: 20px;
+  position: relative;
+  top: 20px;
+}
+
+#img2 {
+  left: 20px;
+  position: sticky;
+  top: 20px;
+  width: 20%;
+}
+
+#img4 {
+  left: 0px;
+  position: absolute;
+  top: 0px;
+}
+
+img {
+  width: 25%;
+}
+

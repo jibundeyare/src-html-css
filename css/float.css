@@ -1,0 +1,11 @@
+img {
+  float: right;
+  margin-right: 10px;
+  width: 25%;
+}
+
+p {
+  /* permet d'empêcher que l'élément soit collé à l'élément précédent qui est en float */
+  /* clear: both; */
+}
+
