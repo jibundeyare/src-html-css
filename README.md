@@ -1,5 +1,21 @@
 # HTML CSS
 
+## `tidy`
+
+[tidy](http://tidy.sourceforge.net/docs/tidy_man.html)
+
+`tidy` est un petit utilitaire qui permet de réindenter du code html.
+
+Le fichier de configuration `tidy-config.txt` permet de :
+
+- indenter avec deux espaces
+- réécrire le code en une version compatible XHTML
+- laisse intacte les lignes plus longues que 68 caractères
+
+Pour utiliser `tidy` avec cette configuration :
+
+    tidy -config tidy-config.txt foo.html
+
 ## Medias
 
 ### `0a_b9g-rm6w-austin-neill.jpg`

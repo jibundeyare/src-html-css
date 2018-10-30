@@ -1,0 +1,7 @@
+indent: auto
+indent-spaces: 2
+output-xhtml: yes
+quiet: yes
+tidy-mark: no
+wrap: 0
+
