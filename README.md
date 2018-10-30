@@ -12,7 +12,7 @@ source: [Photo by Austin Neill | Unsplash](https://unsplash.com/?photo=0A_b9G-Rm
 
 ### iconmonstr-magnifier-4-48.png
 
-author: iconmonstr
+author: [iconmonstr - Free simple icons for your next project](https://iconmonstr.com/)
 
 licence: [License Agreement - iconmonstr](https://iconmonstr.com/license/)
 
