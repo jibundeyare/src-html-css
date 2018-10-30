@@ -1,0 +1,132 @@
+/* suppression des marges de body */
+body {
+  margin: 0;
+}
+
+/**
+ * menu
+ */
+
+nav {
+  background-color: pink;
+}
+
+/* alignement à droite des éléments du menu */
+/* suppression des puces et des marges de la liste */
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* chaque élément de la liste à une marge sur la droite... */
+nav li {
+  margin-right: 10px;
+}
+
+/* sauf le dernier élément */
+nav li:last-child {
+  margin-right: 0;
+}
+
+/* les liens sont affichés comme des éléments de type inline-block */
+nav a {
+  background-color: violet;
+  color: black;
+  display: inline-block;
+  padding: 10px;
+}
+
+/**
+ * article header
+ */
+
+/* affichage d'une image dans la bannière de l'article */
+/* centrage du titre affiché aus dessus de la bannière de l'article */
+/* on affectate une hauteur minimum, ce qui garanti que le titre sera toujours affiché dans la bannière, même s'il est très long */
+article header {
+    align-items: center;
+    background-image: url("../img/0a_b9g-rm6w-austin-neill.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    min-height: 150px;
+}
+
+/* avec flexbox, la balise h1 n'occupe l'espace que dans la mesure de son contenu */
+/* il faut lui préciser que la balise h1 occupe 100% de l'espace du conteneur pour qu'on puisse centrer le texte */
+article h1 {
+  text-align: center;
+  width: 100%;
+}
+
+/* ajout d'une marge intérieure (padding) dans le corps de l'article pour une meilleure lisibilité */
+article .body {
+  padding: 0 10px;
+}
+
+/**
+ * sticky footer
+ */
+
+/* voir [Sticky Footer — Solved by Flexbox — Cleaner, hack-free CSS](https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/) */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/**
+ * footer
+ */
+
+/* design mobile first */
+/* les éléments du footer sont affichés les en dessus des autres */
+footer {
+  display: flex;
+  background-color: lightblue;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+/* sur des écrans plus grands, les éléments du footer sont affichés les uns à côtés des autres */
+@media screen and (min-width: 576px) {
+  footer {
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+/* design mobile first */
+/* suppression des puces */
+/* suppression des marges de la liste sauf la marge du bas pour séparer les éléments quand ils sont affichés les uns au dessus des autres */
+footer ul {
+  list-style: none;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+/* la marge du bas n'est pas nécessaire pour le dernier élément vu qu'il n'y a rien en dessous */
+footer ul:last-child {
+  margin: 0;
+}
+
+/* sur des écrans plus grands, suppression complète des marges car les éléments sont affichés les uns à côté des autres */
+@media screen and (min-width: 576px) {
+  footer ul {
+    margin: 0;
+  }
+}
+
+footer a {
+  color: black;
+}
+

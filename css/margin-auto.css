@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+}
+
+@media screen and (min-width: 600px) {
+  main {
+    margin: 0 auto;
+    width: 600px;
+  }
+}
+

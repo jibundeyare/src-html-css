@@ -1,0 +1,16 @@
+.bg-menu {
+	background-color: pink;
+}
+
+.bg-light {
+	background-color: pink !important;
+}
+
+.dropdown-menu {
+  background-color: pink;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  background-color: lightblue;
+}
+
