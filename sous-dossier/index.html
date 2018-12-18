@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+
+        <!--
+        Si le document root se trouve dans le dossier parent, la balise `base`
+        permet de dire au navigateur que tous les liens relatifs doivent être
+        préfixé avec le href précisé.
+        Exemple : ici avec `/sous-dossier/`
+        -->
+        <base href="/sous-dossier/" />
+
+        <!--
+        Le href de la balise `link` sera préfixé de `/base-url/`.
+        Ce qui donne `/base-url/css/main.css`.
+        -->
+        <link rel="stylesheet" href="css/sous-dossier.css" />
+
+        <!--
+        Le src de la balise `script` sera préfixé de `/base-url/`.
+        Ce qui donne `/base-url/js/sous-dossier.js`.
+        -->
+        <script src="js/sous-dossier.js" defer></script>
+    </head>
+    <body>
+
+        <h1>Exemple d'utilisation de la balise &lt;base&gt;</h1>
+
+        <p>Les feuilles de style, les images et les scripts sont chargés depuis le sous-dossier.</p>
+
+        <p id="content"></p>
+
+        <img src="img/sous-dossier-0a_b9g-rm6w-austin-neill.jpg" alt="coucher de soleil sur la côte" />
+
+    </body>
+</html>
